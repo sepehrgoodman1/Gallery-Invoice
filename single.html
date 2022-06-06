@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Css -->
+    <link rel="stylesheet" href="./index.css" />
+
+    <!-- Java script Html2Pdf  -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"
+      integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Print Button Just For Test and download pdf -->
+    <button id="Print">Print</button>
+
+    <div class="Order" id="Main">
+      <div class="P_LeftRight">
+        <!-- Left Side -->
+        <div class="Order_Left">
+          <div class="Order_Title">Artor</div>
+          <div class="Info">
+            <div class="From">From</div>
+            <div class="ArtistName">Ester Howard</div>
+            <div class="Info_Text">Info</div>
+            <div class="InfoDesk">
+              Felicia.reid@example.com <br />
+              +1 (629) 555-0129
+            </div>
+            <div class="ShippingText">Shipping</div>
+            <div class="ShippingDesk">
+              734 Diomond Dr <br />Los Angeles, CA <br />
+              USA 92660
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Side -->
+        <div class="Order_Right">
+          <div class="TextInvoice">Invoice</div>
+          <div class="No">#No</div>
+
+          <div class="Issued">Issued</div>
+          <div class="Issued_Date">07 Jan, 2022</div>
+
+          <div class="Due">Due date</div>
+          <div class="DueDate">014 Jan, 2022</div>
+
+          <div class="To">To</div>
+          <div class="ToArtist">Ester Howard</div>
+
+          <div class="Info_Text">Info</div>
+          <div class="InfoDesk">
+            Felicia.reid@example.com <br />
+            +1 (629) 555-0129
+          </div>
+
+          <div class="ShippingText">Shipping</div>
+          <div class="ShippingDesk">
+            734 Diomond Dr <br />Los Angeles, CA <br />
+            USA 92660
+          </div>
+        </div>
+      </div>
+
+      <!-- Table -->
+      <div class="P_Table">
+        <table class="Table">
+          <!-- Head -->
+          <tr class="Table_Head">
+            <th class="Item HeaderTable">Item</th>
+            <th class="Rarity HeaderTable">Rarity</th>
+            <th class="Cost HeaderTable">Cost</th>
+            <th class="Cost HeaderTable">Qty</th>
+            <th class="Total HeaderTable">Total</th>
+          </tr>
+
+          <!-- Item -->
+          <tr class="Table_Item">
+            <td class="ImgAndInfo">
+              <img src="./images/artwork.png" class="ImgTable" />
+              <div class="MainInfoTable">
+                <div>Black swan</div>
+                <div>Sohrab Sepehri</div>
+                <div class="TypeFile">PNG File</div>
+              </div>
+            </td>
+            <td class="TableItems">L. Edition</td>
+            <td class="TableItems">$2,000</td>
+            <td class="TableItems">1</td>
+            <td class="TableItems text_end">$2,000</td>
+          </tr>
+
+          
+
+          <!-- Last Item (Total) -->
+          <tr class="Table_Item_last">
+            <td class="Motion">
+              <div>Motion Services</div>
+              <div class="Weekly">Weekly Rate</div>
+            </td>
+            <td class="TableItems"></td>
+            <td class="TableItems">$5,000</td>
+            <td class="TableItems">1</td>
+            <td class="TableItems text_end">$5,000</td>
+          </tr>
+        </table>
+      </div>
+      <div class="P_Payment">
+        <!-- Left Section -->
+        <div class="Sections">
+          <div class="PaymentText">Payment method</div>
+          <div class="P_Paypal">
+            <div><img src="./images/Paypal.png" class="PdfIcon" /></div>
+            <div class="NumberCart">******ah4@gmail.com</div>
+          </div>
+          <div class="P_Paypal">
+            <div><img src="./images/DebitBlack.svg" class="PdfIcon" /></div>
+            <div class="NumberCart">
+              <span class="PaidWith">Paid with</span>**** **** **** 1563
+            </div>
+          </div>
+        </div>
+        <!-- Right Section -->
+        <div class="Sections">
+          <div class="CurrentBill">Bill</div>
+          <div class="P_Items">
+            <div>Subtotal</div>
+            <div class="Cost">$2,000</div>
+          </div>
+          <div class="P_Items">
+            <div>Discount (20%)</div>
+            <div class="Cost">$1,400</div>
+          </div>
+          <div class="P_Items">
+            <div>Shipping</div>
+            <div class="Cost">Free</div>
+          </div>
+          <div class="P_Items">
+            <div>Tax</div>
+            <div class="Cost">$1,211</div>
+          </div>
+          <div class="P_total">
+            <div>Total</div>
+            <div class="Cost">$3,111</div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
+    <!-- My Js -->
+    <script src="./index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,455 @@
+/* font Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Poppins:wght@400;500;600;700&display=swap');
+
+/* font Inter */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.Order{
+    max-width: 595px;
+    width: 100%;
+    margin: auto;
+    padding: 32px;
+}
+.P_LeftRight{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Order_Title{
+    font-size: 32px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+.TextInvoice{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 25px;
+}
+.No{
+    font-size: 14px;
+    font-weight: 600;
+    color: #00000070;
+}
+.Order_Right{
+    margin-top: 5px;
+    width: 130px;
+}
+.Info{
+    margin-top: 129px;
+}
+.From{
+    font-weight: 600;
+    font-size: 12px;
+}
+.ArtistName{
+    font-weight: 500;
+    font-size: 11px;
+    margin-top: 8px;
+}
+.Info_Text{
+    font-weight: 500;
+    margin-top: 8px;
+    font-size: 10px;
+    line-height: 14px;
+}
+.InfoDesk{
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 14px;
+}
+.ShippingText{
+    margin-top: 14px;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 14px;
+}
+.ShippingDesk{
+    font-size: 10px;
+    line-height: 14px;
+    font-weight: 400;
+}
+.Issued{
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+    margin-top: 33px
+}
+.Issued_Date{
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 14px;
+}
+.Due{
+    margin-top: 9px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+}
+.DueDate{
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 14px;
+}
+.To{
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+    margin-top: 32px;
+}
+.ToArtist{
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 14px;
+    margin-top: 8px;
+}
+
+.HeaderTable{
+    text-align: start;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+}
+.LineHeader{
+   display: inline-block;
+   height: 1px;
+   position: absolute;
+   top: 20px;
+   width: 100%;
+   background-color: black;
+}
+.LineBody{
+    display: inline-block;
+    height: 1px;
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    background-color: black;   
+}
+
+.Table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.P_Table{
+    position: relative ;
+    margin-top: 32px;
+}
+.Table_Item{
+    height: 96px;
+    border-bottom: 1px solid #DDDDDD;
+}
+.Table_Item_last{
+    height: 36px;
+}
+.ImgTable{
+    width: 64px;
+    height: 64px;
+    border-radius: 6px;
+    object-fit: cover;
+    position: relative;
+    top: 2px;
+}
+.posRel{
+    position: relative;
+}
+.Table_Head{
+    height: 22px;
+    border-bottom: 1px solid black;
+}
+.TableItems{
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 14px;
+}
+.MainInfoTable{
+    display: inline-block;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 14px;
+    margin-left: 10px;
+    position: relative;
+    bottom: 13px;
+}
+.MainInfoTable_HavePaid{
+    display: inline-block;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 14px;
+    margin-left: 10px;
+    position: relative;
+    bottom: 6px;
+}
+
+
+.TypeFile{
+    color: rgba(0, 0, 0, 0.518);
+}
+.Paid{
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 14px;
+    border-radius: 13px;
+    padding: 2.5px 10px;
+    background-color: black;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    margin-top: 3px;
+}
+.Unpaid{
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 14px;
+    border-radius: 13px;
+    padding: 2.5px 9px;
+    background-color: #DBDBDB;
+    display: inline-block;
+    color: #5F5F5F;
+    text-align: center;
+    margin-top: 3px;
+}
+.Total{
+    text-align: end !important;
+}
+.text_end{
+    text-align: end;
+}
+.Item{
+    width: 211px;
+}
+.Motion{
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 14px;
+}
+.Weekly{
+    color: rgba(0, 0, 0, 0.449);
+}
+.P_Payment{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 36px;
+}
+.Sections{
+    font-size: 12px;
+    font-weight: 600;
+    width: 48.5%;
+}
+.PaymentText{
+    border-bottom: 1px solid black;
+    padding-bottom: 4px;
+}
+.P_Pdf{
+    display: flex;
+    font-size: 10px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+    padding-bottom: 7px;
+    padding-right: 1px;
+}
+.PdfIcon{
+    position: relative;
+    top: 5px;
+    margin-right: 6px;
+    margin-left: 5px;
+}
+.DateText{
+    font-weight: 400;
+    position: relative;
+    top: 4px;
+}
+.NumberCart{
+    font-weight: 400;
+    position: relative;
+    top: 4px;
+    font-size: 11px;
+    font-weight: 500;
+}
+.P_TotalPaid{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 1px;
+}
+.P_TotalPaid{
+    font-size: 12px;
+    font-weight: 600;
+    padding-top: 4px;
+}
+.Cost{
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.CurrentBill{
+    padding-bottom: 4px;
+    border-bottom: 1px solid black;
+}
+.P_Items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3px;
+    padding-right: 1px;
+}
+.P_total{
+    margin-top: 32px;
+    padding-top: 4px;
+    border-top: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 1px;
+}
+.P_SectionTotal{
+    margin-top: 4px;
+    padding-top: 4px;
+    border-top: 1px solid #F1F1F1;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 1px;
+}
+.Paying{
+    font-size: 12px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 32px;
+}
+.Partial{
+    font-size: 8px;
+    font-weight: 500;
+    margin-top: 4px;
+    text-align: center;
+    color: #27A6EC;
+    cursor: pointer;
+}
+.Choose{
+    font-size: 10px;
+    font-weight: 500;
+    margin-top: 32px;
+    text-align: center;
+}
+.Paypal{
+    background-color: #F7C557;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    width:100%;
+    height: 32px;
+    margin-top: 8px;
+}
+.Debit{
+    background-color: black;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    width:100%;
+    height: 32px;
+    margin-top: 12px;
+    font-size: 12px;
+    font-weight: 500;
+}
+.DebitText{
+    position: relative;
+    bottom: 2px;
+    margin-left: 4.33px;
+}
+.ImgDebit{
+    position: relative;
+    top: 2px;
+}
+#Print{
+    display: flex;
+    margin: auto;
+}
+.P_Paypal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 7px;
+    margin-bottom: 15px;
+}
+.PaidWith{
+    margin-right: 8px;
+    font-size: 11px;
+    font-weight: 500;
+}
+.ImgAndInfo{
+    position: relative;
+    top: 1.2px;
+}
+
+.Preview{
+    padding: 32px;
+    width: 595px;
+    margin: auto;
+}
+.Artor{
+    font-size: 32px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+.P_Artor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.OrderPrev{
+    font-size: 16px;
+    font-weight: 600;
+}
+.P_Preview{
+    margin-top: 32px;
+    margin-bottom: 4px;
+}
+.ImgPrev{
+    object-fit: cover;
+    width: 100%;
+    height: 568px;
+}
+.ArtworkDetail{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 12px;
+    padding-right: 1px;
+}
+.ArtistPrev{
+    font-size: 12px;
+    margin-top: 12px;
+    font-weight: 500;
+}
+.Numbers{
+    color: #88888899;
+    margin-top: 12px;
+    font-size: 12px;
+    font-weight: 600;
+}
+.P_LinePrev{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 32px;
+}
+.LinePrev{
+    flex: 1;
+    height: 1.4px;
+    background-color: #DFDFDF;
+    margin-right: 12px;
+}
+.LinePrev2{
+    flex: 1;
+    height: 1.4px;
+    background-color: #DFDFDF;
+    margin-left: 12px;
+}
