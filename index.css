@@ -18,7 +18,6 @@
     padding: 32px;
 }
 .P_LeftRight{
-    display: flex;
     justify-content: space-between;
 }
 
