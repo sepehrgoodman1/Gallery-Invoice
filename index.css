@@ -19,9 +19,11 @@
 }
 .P_LeftRight{
     justify-content: space-between;
-    display: flex;
 }
-
+.Order_Left{
+    display: inline-block;
+    width: 390px;
+}
 .Order_Title{
     font-size: 32px;
     font-weight: 500;
@@ -40,6 +42,7 @@
 .Order_Right{
     margin-top: 5px;
     width: 130px;
+    display: inline-block;
 }
 .Info{
     margin-top: 129px;
